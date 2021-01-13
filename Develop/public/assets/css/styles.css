@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  color: #2c85fad3;
+}
+
+body {
+  font-size: 120%;
+  font-family: 'Ubuntu',
+    sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c85fa69;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111010d4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2c85fabb;
+}
+
+body .image {
+  display: flex;
+  position: inherit;
+  background: url(../images/cat-crypto.jpeg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: flex;
+  height: 30vh;
+  color: #2c85fad3;
+  font-family: 'Ubuntu',
+    sans-serif;
+  background-color: none;
+  width: 95%;
+  mix-blend-mode: multiply;
+  opacity: 0.9;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+}
+
+body .title {
+  margin: 20px;
+  text-decoration: none;
+}
+
+button,
+input {
+  font-size: 100%;
+  font-family: 'Ubuntu',
+    sans-serif;
+  display: inline-block;
+  background: white;
+  border: none;
+  margin: 5px;
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+  position: left;
+}
+
+td,
+th {
+  border: 2px solid #2c85fa88;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #2c85fa7c;
+}
+
+.error {
+  color: rgb(0, 0, 0);
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 825px;
+  text-align: center;
+}
+
+.total {
+  font-size: 150%;
+  text-decoration: none;
+}
+
+.form {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.transactions {
+  text-align: left;
+  max-height: 300px;
+  overflow: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+
+body .wrapper .total .title {
+  font-size: 60px;
+  letter-spacing: 30px;
+  padding: 0;
+  margin-bottom: -10px;
+  font-weight: 900;
+}
+
+body .wrapper .total .title span {
+  list-style: none;
+  display: inline-block;
+  justify-content: center;
+  padding: 0;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+body .wrapper .total .logo {
+  color: rgba(5, 148, 5, 0.624);
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+body .wrapper .total .amount {
+  color: rgba(5, 148, 5, 0.624);
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
